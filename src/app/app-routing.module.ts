@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MahasiswaComponent } from './mahasiswa/mahasiswa.component';
+// MADE BY ANDI CHIA
 const routes: Routes = [
   {
     path: 'mahasiswa',
     component: MahasiswaComponent,
   },
-
   {
     path: '',
     redirectTo: '/mahasiswa',
